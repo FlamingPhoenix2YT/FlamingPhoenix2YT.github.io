@@ -1,5 +1,9 @@
 /*Main stylesheet*/
-h1 {
-font-color: #ffff00;
+body {
+ background-color: blue; 
 }
+h1 {  
+font-family: sans-serif;
+ color: green;
+} 
 
