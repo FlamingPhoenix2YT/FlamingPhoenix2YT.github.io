@@ -3,12 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="text/javascript">
-  function autoRefresh() {
- if(window.location.href.substr(-2) !== "?r") {
-      window.location = window.location.href + "?r";
-    }
-  }
-  window.onload = autoRefresh;
   </script>
 <title>Welcome to PatrawlaGames</title>
 </head>
@@ -23,6 +17,12 @@
   <div id="bottom">
   <p>Purchased May 7th, 2017 THANKS TO GITHUB!</p>
   </div>
+  function autoRefresh() {
+ if(window.location.href.substr(-2) !== "?r") {
+      window.location = window.location.href + "?r";
+    }
+  }
+  window.onload = autoRefresh;
 </body>
 <style>
   /*Stylesheet for main page*/
