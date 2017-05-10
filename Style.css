@@ -1,0 +1,29 @@
+html {
+    background: url(https://media.giphy.com/media/QV4J3pmMDUHUk/giphy.gif) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    color:white;
+    padding:0px;
+    margin:0px;
+    }
+
+    body {
+    padding:0em;
+    margin:1em;
+    background-color: black;
+    }
+
+    div {
+    background-color:rgba(200,200,200,0.2);
+    padding:1em;
+    padding-top:0.5em;
+    margin:0em;
+    min-width:16em;
+    width:0px;
+    border-radius:1em;
+    }
+
+    h1,h2,p {
+    margin:0em;
+    padding:0em;
+    }
