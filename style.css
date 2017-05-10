@@ -12,26 +12,6 @@ html {
     margin:1em;
     background-color: black;
     }
-
-    .description {
-    background-color:rgba(200,200,200,0.2);
-    padding:1em;
-    padding-top:0.5em;
-    margin:0em;
-    min-width:16em;
-    width:0px;
-    border-radius:1em;
-    }
-.thanks{
-background-color:rgba(200,200,200,0.2);
-    padding:1em;
-    padding-top:0.5em;
-    margin:0em;
-    min-width:16em;
-    width:0px;
-    border-radius:1em;
-position: absolute;
-right: 0px;
 }
 
     h1,h2,p {
@@ -39,9 +19,11 @@ right: 0px;
     padding:0em;
     }
     right {
+        border: 5px solid white;
     float: right;
 }
 left {
     float: left;
+    border: 5px solid white;
 }
         
