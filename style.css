@@ -19,9 +19,9 @@ html {
     padding:0em;
     }
     center {
-       
+    border: solid blue 5px;   
 }
 left {
-  
+  border: solid blue 5px;
 }
         
