@@ -18,8 +18,11 @@ html {
     margin:0em;
     padding:0em;
     }
-    div {
+    .description {
     border: solid blue 5px;   
+}
+    .about {
+    border: solid blue 5px;    
 }
 
         
