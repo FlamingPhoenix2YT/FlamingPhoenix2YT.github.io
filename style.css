@@ -32,7 +32,7 @@ html {
 li {
     display: inline;
 }
-a {
+.navbar {
     display: block;
     padding: 8px;
     background-color: #dddddd;
