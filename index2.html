@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <head>
     <style>
-     html {
+     div {
+    background-color:rgba(200,200,200,0.2);
+    padding:1em;
+    padding-top:0.5em;
+    margin:0em;
+    min-width:16em;
+    width:0px;
+    border-radius:1em;
+    }
+        html {
         background: url('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiSoJzs9YDUAhVQySYKHWPtA7oQjRwIBw&url=https%3A%2F%2Fwww.planwallpaper.com%2Fcool-background&psig=AFQjCNFkPLW7QmpwSXIMMZBy-sgIHHD62Q&ust=1495453835032434') no-repeat center center fixed;
         background-size: cover;
         -webkit-background-size: cover;
@@ -85,6 +94,7 @@
 </head>
 <body>
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div>
     <center><h1>This is the official site of PatrawlaGames!</h1></center>
       <div id="description">
    <p>This is the site of the company that created <a href="https://turd.ch">turd.ch</a>, <a href="https://broyojo.com">broyojo.com</a>, and 
@@ -94,7 +104,8 @@
      <p>Purchased May 7th, 2017 THANKS TO GITHUB FOR HELP!</p>  
     </div>
 </body>
-      <script>
+    </div> 
+    <script>
  if(window.location.href.substr(-2) !== "?r") {
       window.location = window.location.href + "?r";
     }
