@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <style>
+     body {
+      font-family: "Lato", sans-serif;
+      transition: background-color .5s;
+      }
+      
+      .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+      }
+      
+      .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+      }
+      
+      .sidenav a:hover, .offcanvas a:focus{
+      color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+      }
+      
+      #main {
+      transition: margin-left .5s;
+      padding: 16px;
+      }
+      
+      @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      }
+    </style>
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="https://broyojo.com/about">About</a>
+      <a href="https://broyojo.io">Broyojo.io</a>
+      <a href="https://broyojo.com/infectedinfected">Infected</a>
+      <a href="https://broyojo.com/contact">Contact</a>
+    </div>
+    
+    <div id="main">
+      <h2>Patrawla</h2>
+      <p>This is patrawla demo</p>
+      
+    </div>
+    
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+      
+      function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+      }
+    </script>
+   <title>Welcome to PatrawlaGames</title>
+</head>
+<body>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<h1>This is the official site of PatrawlaGames!</h1>
+      <div id="description">
+   <p>This is the site of the company that created <a href="https://turd.ch">turd.ch</a>, <a href="https://broyojo.com">broyojo.com</a>, and 
+    developing <a href="https://broyojo.io">broyojo.io</a> This will be used as the company site, and is in development. We hope you like our sites, and support us!</p>
+      </div>
+      <div id= "about">
+     <p>Purchased May 7th, 2017 THANKS TO GITHUB FOR HELP!</p>  
+     </div>
+      <link rel="stylesheet" type="text/css" href="style.css" />
+         </body>
+      </html>
+      <script>
+ if(window.location.href.substr(-2) !== "?r") {
+      window.location = window.location.href + "?r";
+    }
+  alert("***READ*** PLEASE MAKE SURE TO REFRESH THE PAGE BEFORE USING THE SITE")
+    </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97575052-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
